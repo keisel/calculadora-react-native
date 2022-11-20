@@ -4,6 +4,8 @@ enum Operadores{
     sumar, restar, multiplicar, dividir
 }
 
+
+
 export const useCalculadora=()=>{
 
     const [numero, setNumero] = useState('0')
